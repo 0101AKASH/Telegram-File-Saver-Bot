@@ -1,0 +1,2 @@
+telebot==4.26.0  
+requests==4.26.0
