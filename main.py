@@ -2,11 +2,11 @@ import telebot
 import os
 
 # === CONFIG ===
-BOT_TOKEN = "7905146360:AAF1Rx127LgEk50Pf-hVYn9WkwMUoJDPsnA"
-MY_USER_ID = "1152045784"  # e.g. "123456789"
+BOT_TOKEN = "YOUR_BOT_TOKKEN"
+MY_USER_ID = "YOUR_USER_ID"  # e.g. "123456789"
 
 # Only these user IDs can use the bot
-ALLOWED_USERS = ["5986309933", "6338350971"]
+ALLOWED_USERS = ["USER ID", "USER ID"]
 
 SAVE_DIR = "downloads"
 
