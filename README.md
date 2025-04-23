@@ -35,28 +35,12 @@ Or install manually:
 pip install pyTelegramBotAPI python-dotenv
 ```
 
-### 3. Configure Environment Variables
 
-Create a `.env` file in the root directory and add:
-
-```env
-BOT_TOKEN=your_telegram_bot_token
-MY_USER_ID=your_telegram_user_id
-ALLOWED_USERS=12345678,98765432
-```
-
-> 💡 Use comma-separated user IDs for `ALLOWED_USERS`.
-
-Also, make sure to add `.env` to your `.gitignore` file:
-
-```bash
-echo ".env" >> .gitignore
-```
 
 ### 4. Run the Bot
 
 ```bash
-python bot.py
+python main.py
 ```
 
 You should see:
